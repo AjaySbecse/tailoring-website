@@ -1,0 +1,67 @@
+#landing-content{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.landing-title{
+    font-size: 35px;
+    font-family: seasons;
+    color: var(--bolder);
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 10px  ;
+}
+
+.landing-description{
+    font-family: glacial-indifference;
+    font-size: 18px;
+    color: var(--text);
+}
+
+.landing-description > .first-line{
+    margin-bottom: 5px;
+}
+
+#jfy{
+    color: var(--secondary-color);
+    font-family: seasons;
+}
+
+#landing-trending-container{
+   text-align: center;
+}
+
+#trending{
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: seasons;
+    color: var(--secondary-color);
+}
+
+.trending-image-collection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trending-img1, .trending-img5{
+    width: 220px;
+    height: 250px;
+}
+
+.trending-img2, .trending-img4{
+    width: 240px;
+    height: 300px;
+}
+
+.trending-img3{
+    width: 260px;
+    height: 350px;
+}
+
+.trending-img{
+    margin: 5px 20px 5px 20px;
+    border-radius: 30px;
+}
