@@ -32,8 +32,8 @@
    text-align: center;
 }
 
-#trending{
-    letter-spacing: 2px;
+.section-title{
+    letter-spacing: 4px;
     font-size: 16px;
     font-family: seasons;
     color: var(--secondary-color);
@@ -64,4 +64,79 @@
 .trending-img{
     margin: 5px 20px 5px 20px;
     border-radius: 30px;
+}
+
+.overview-container{
+    height: 200px;
+    width: 100%;
+    background-color: var(--background-color2);
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overview-item{
+    height: auto;
+    width: 25%;
+    text-align: center;
+}
+
+.overview-item > .overview-item-title {
+    font-family: seasons;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.overview-item > .overview-item-desc {
+    font-family: glacial-indifference;
+    color: var(--text);
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+#service-container{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.section-subtitle{
+    font-family: seasons;
+    font-size: 30px;
+    color: var(--bolder);
+}
+
+
+.home-button{
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;     
+    font-size: 22px;
+    font-family: seasons;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#categories-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categories{
+    margin: 0px 20px;
+}
+
+.category-img{
+    height: 400px;
+    width: 250px;
+}
+
+.category-title{
+    font-family: seasons;
+    font-size: 26px;
 }

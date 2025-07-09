@@ -1,9 +1,15 @@
-import '../styles/Home.css'
-import img1 from '../images/home/Home1.png'
-import img2 from '../images/home/Home2.png'
-import img3 from '../images/home/Home3.png'
-import img4 from '../images/home/Home4.png'
-import img5 from '../images/home/Home5.png'
+import '../styles/Home.css';
+import img1 from '../images/home/Home1.png';
+import img2 from '../images/home/Home2.png';
+import img3 from '../images/home/Home3.png';
+import img4 from '../images/home/Home4.png';
+import img5 from '../images/home/Home5.png';
+
+import Salwar from '../images/home/Salwar.png';
+import Kurthi from '../images/home/Kurti.png';
+import Blouses from '../images/home/Blouses.png';
+import Chudithars from '../images/home/Chuditars.png';
+import Anarkalis from '../images/home/Anarkalis.png';
 
 function HomeComponent(){
     return (
@@ -20,7 +26,7 @@ function HomeComponent(){
             </div>
 
             <div id='landing-trending-container'>
-                <p id='trending'>#TRENDING</p>
+                <p id='trending' className='section-title'>#TRENDING</p>
                 <div className='trending-image-collection'>
                         <img src={img1} alt="image1" className='trending-img1 trending-img' />
                         <img src={img2} alt="image2" className='trending-img2 trending-img' />
@@ -30,6 +36,56 @@ function HomeComponent(){
                 </div>
             </div>
 
+            <div className='overview-container'>
+                <div className='overview-item'>
+                    <img src="" alt="icon1" />
+                    <p className='overview-item-title'>Proven Experience</p>
+                    <p className='overview-item-desc'>Over 10 years of trusted tailoring</p>
+                </div>
+                <div className='overview-item'>
+                    <img src="" alt="icon2" />
+                    <p className='overview-item-title'>Custom Fit</p>
+                    <p className='overview-item-desc'>Stitching styles just how you want</p>
+                </div>
+                <div className='overview-item'>
+                    <img src="" alt="icon3" />
+                    <p className='overview-item-title'>Women Focused</p>
+                    <p className='overview-item-desc'>Tailoring designed only for women</p>
+                </div>
+                <div className='overview-item'>
+                    <img src="" alt="icon4" />
+                    <p className='overview-item-title'>24/7 Support</p>
+                    <p className='overview-item-desc'>We're here whenever you need us</p>
+                </div>
+            </div>
+
+            <div id='service-container'>
+                <p className='section-title'># OUR SERVICES</p>
+                <p className='section-subtitle'> We specialize in stitching </p>
+                <div id='categories-container'>
+                    <div className='categories'>
+                        <img src={Salwar} alt="salwar" className='category-img'/>
+                        <p className='category-title'>Salwar</p>
+                    </div>
+                    <div className='categories'>
+                        <img src={Kurthi} alt="Kurthi" className='category-img'/>
+                        <p className='category-title'>Kurthi</p>
+                    </div>
+                    <div className='categories'>
+                        <img src={Blouses} alt="Blouses" className='category-img'/>
+                        <p className='category-title'>Blouses</p>
+                    </div>
+                    <div className='categories'>
+                        <img src={Chudithars} alt="Chudithars" className='category-img'/>
+                        <p className='category-title'>Chudithars</p>
+                    </div>
+                    <div className='categories'>
+                        <img src={Anarkalis} alt="Anarkalis" className='category-img'/>
+                        <p className='category-title'>Anarkalis</p>
+                    </div>
+                </div>
+                <button className='home-button'>See More</button>
+            </div>
         </div>
     );
 }
