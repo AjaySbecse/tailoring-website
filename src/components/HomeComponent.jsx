@@ -11,6 +11,11 @@ import Blouses from '../images/home/Blouses.png';
 import Chudithars from '../images/home/Chuditars.png';
 import Anarkalis from '../images/home/Anarkalis.png';
 
+import CustomFitIcon from '../icons/home/Custom_Fit.png';
+import TwentyFourBySeven from '../icons/home/24_7.png';
+import ProvenExperienceIcon from '../icons/home/Proven_Experience.png';
+import WomenFocusedIcon from '../icons/home/Women_Focused.png';
+
 function HomeComponent(){
     return (
         <div id="landing-container">
@@ -38,22 +43,22 @@ function HomeComponent(){
 
             <div className='overview-container'>
                 <div className='overview-item'>
-                    <img src="" alt="icon1" />
+                    <img src={ProvenExperienceIcon} alt="icon1" />
                     <p className='overview-item-title'>Proven Experience</p>
                     <p className='overview-item-desc'>Over 10 years of trusted tailoring</p>
                 </div>
                 <div className='overview-item'>
-                    <img src="" alt="icon2" />
+                    <img src={CustomFitIcon} alt="icon2" />
                     <p className='overview-item-title'>Custom Fit</p>
                     <p className='overview-item-desc'>Stitching styles just how you want</p>
                 </div>
                 <div className='overview-item'>
-                    <img src="" alt="icon3" />
+                    <img src={WomenFocusedIcon} alt="icon3" />
                     <p className='overview-item-title'>Women Focused</p>
                     <p className='overview-item-desc'>Tailoring designed only for women</p>
                 </div>
                 <div className='overview-item'>
-                    <img src="" alt="icon4" />
+                    <img src={TwentyFourBySeven} alt="icon4" />
                     <p className='overview-item-title'>24/7 Support</p>
                     <p className='overview-item-desc'>We're here whenever you need us</p>
                 </div>
@@ -85,6 +90,34 @@ function HomeComponent(){
                     </div>
                 </div>
                 <button className='home-button'>See More</button>
+            </div>
+
+            <div id='looks-container'>
+                <p className='section-title'># MOOD BASED LOOKS</p>
+                <p className='section-subtitle'> Not sure what suits you? Let us help </p>
+                <div id='categories-container'>
+                    <div className='categories'>
+                        <img src={Salwar} alt="salwar" className='category-img'/>
+                        <p className='category-title'>Elegant Office Vibes</p>
+                    </div>
+                    <div className='categories'>
+                        <img src={Kurthi} alt="Kurthi" className='category-img'/>
+                        <p className='category-title'>Festive Traditional Spark</p>
+                    </div>
+                    <div className='categories'>
+                        <img src={Blouses} alt="Blouses" className='category-img'/>
+                        <p className='category-title'>Minimalist Daily Comfort</p>
+                    </div>
+                    <div className='categories'>
+                        <img src={Chudithars} alt="Chudithars" className='category-img'/>
+                        <p className='category-title'>Chic Party Glam</p>
+                    </div>
+                    <div className='categories'>
+                        <img src={Anarkalis} alt="Anarkalis" className='category-img'/>
+                        <p className='category-title'>Bridal Grace & Grandeur</p>
+                    </div>
+                </div>
+                <button className='home-button'>Get Inspired</button>
             </div>
         </div>
     );
