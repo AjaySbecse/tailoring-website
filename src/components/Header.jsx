@@ -1,11 +1,11 @@
 import '../styles/header.css';
-import logo from '../logo/Logo.png';
+import logo from '../logo/Logo2.png';
 
-function Header(){
+function Header() {
     return (
         <div className="header">
             <div className="header-logo">
-                <img src={logo} alt="test" srcset="" />
+                <img src={logo} alt="Logo" srcset="" />
             </div>
             <div className="header-nav">
                 <ul>
