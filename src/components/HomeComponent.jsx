@@ -16,7 +16,13 @@ import TwentyFourBySeven from '../icons/home/24_7.png';
 import ProvenExperienceIcon from '../icons/home/Proven_Experience.png';
 import WomenFocusedIcon from '../icons/home/Women_Focused.png';
 
-function HomeComponent(){
+import BridalGrace from '../images/home/looks/Bridal_Grace.png';
+import ChicParty from '../images/home/looks/Chic_Party_Glam.png';
+import ElegantOffice from '../images/home/looks/Elegant_Office_Vibes.png';
+import FestiveTraditional from '../images/home/looks/Festive_Traditional_Spark.png';
+import DailyComfort from '../images/home/looks/Minimalist_Daily_Comfort.png';
+
+function HomeComponent() {
     return (
         <div id="landing-container">
             <div id="landing-content">
@@ -24,7 +30,7 @@ function HomeComponent(){
                     Tailored Elegance for Every Woman
                 </p>
                 <div className="landing-description">
-                    <p className='first-line'>Nagalakshmi tailoring specialize in creating beautifully fitted garments that celebrate your individuality and grace.<br/></p>
+                    <p className='first-line'>Nagalakshmi tailoring specialize in creating beautifully fitted garments that celebrate your individuality and grace.<br /></p>
                     Whether you're dressing for daily comfort or a grand occasion, every stitch is made with care --
                     <span id='jfy'> just for you</span>
                 </div>
@@ -33,11 +39,11 @@ function HomeComponent(){
             <div id='landing-trending-container'>
                 <p id='trending' className='section-title'>#TRENDING</p>
                 <div className='trending-image-collection'>
-                        <img src={img1} alt="image1" className='trending-img1 trending-img' />
-                        <img src={img2} alt="image2" className='trending-img2 trending-img' />
-                        <img src={img3} alt="image3" className='trending-img3 trending-img' />
-                        <img src={img4} alt="image4" className='trending-img4 trending-img' />
-                        <img src={img5} alt="image5" className='trending-img5 trending-img' />
+                    <img src={img1} alt="image1" className='trending-img1 trending-img' />
+                    <img src={img2} alt="image2" className='trending-img2 trending-img' />
+                    <img src={img3} alt="image3" className='trending-img3 trending-img' />
+                    <img src={img4} alt="image4" className='trending-img4 trending-img' />
+                    <img src={img5} alt="image5" className='trending-img5 trending-img' />
                 </div>
             </div>
 
@@ -69,23 +75,23 @@ function HomeComponent(){
                 <p className='section-subtitle'> We specialize in stitching </p>
                 <div id='categories-container'>
                     <div className='categories'>
-                        <img src={Salwar} alt="salwar" className='category-img'/>
+                        <img src={Salwar} alt="salwar" className='category-img' />
                         <p className='category-title'>Salwar</p>
                     </div>
                     <div className='categories'>
-                        <img src={Kurthi} alt="Kurthi" className='category-img'/>
+                        <img src={Kurthi} alt="Kurthi" className='category-img' />
                         <p className='category-title'>Kurthi</p>
                     </div>
                     <div className='categories'>
-                        <img src={Blouses} alt="Blouses" className='category-img'/>
+                        <img src={Blouses} alt="Blouses" className='category-img' />
                         <p className='category-title'>Blouses</p>
                     </div>
                     <div className='categories'>
-                        <img src={Chudithars} alt="Chudithars" className='category-img'/>
+                        <img src={Chudithars} alt="Chudithars" className='category-img' />
                         <p className='category-title'>Chudithars</p>
                     </div>
                     <div className='categories'>
-                        <img src={Anarkalis} alt="Anarkalis" className='category-img'/>
+                        <img src={Anarkalis} alt="Anarkalis" className='category-img' />
                         <p className='category-title'>Anarkalis</p>
                     </div>
                 </div>
@@ -97,27 +103,53 @@ function HomeComponent(){
                 <p className='section-subtitle'> Not sure what suits you? Let us help </p>
                 <div id='categories-container'>
                     <div className='categories'>
-                        <img src={Salwar} alt="salwar" className='category-img'/>
-                        <p className='category-title'>Elegant Office Vibes</p>
+                        <img src={ElegantOffice} alt="Elegant Office Vibes" className='category-img' />
+                        <p className='category-title'>Elegant Office <br /> Vibes</p>
                     </div>
                     <div className='categories'>
-                        <img src={Kurthi} alt="Kurthi" className='category-img'/>
+                        <img src={FestiveTraditional} alt="Festive Traditional Spark" className='category-img' />
                         <p className='category-title'>Festive Traditional Spark</p>
                     </div>
                     <div className='categories'>
-                        <img src={Blouses} alt="Blouses" className='category-img'/>
+                        <img src={DailyComfort} alt="Minimalist Daily Comfort" className='category-img' />
                         <p className='category-title'>Minimalist Daily Comfort</p>
                     </div>
                     <div className='categories'>
-                        <img src={Chudithars} alt="Chudithars" className='category-img'/>
-                        <p className='category-title'>Chic Party Glam</p>
+                        <img src={ChicParty} alt="Chic Party Glam" className='category-img' />
+                        <p className='category-title'>Chic Party <br /> Glam</p>
                     </div>
                     <div className='categories'>
-                        <img src={Anarkalis} alt="Anarkalis" className='category-img'/>
+                        <img src={BridalGrace} alt="Bridal Grace Grandeur" className='category-img' />
                         <p className='category-title'>Bridal Grace & Grandeur</p>
                     </div>
                 </div>
                 <button className='home-button'>Get Inspired</button>
+            </div>
+
+            <div id='customer-review'>
+                <div className='customer-review-image-holder'>
+                    <div class="card back-card"></div>
+                    <div class="card front-card">
+                        <div class="badge">
+
+                        </div>
+                    </div>
+                </div>
+                <div className='customer-review-text-holder'>
+                    <p className='section-title'># CUSTOMER REVIEWS</p>
+                    <div className='star-rating'>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p className='customer-name'>Ajay S</p>
+                    <p className='customer-review'>
+                        The fit was just perfect! And the finishing was better than ready-made ones.
+                        I felt super confident wearing it to my cousin's engagement.
+                    </p>
+                </div>
             </div>
         </div>
     );
