@@ -22,8 +22,6 @@ import ElegantOffice from '../images/home/looks/Elegant_Office_Vibes.png';
 import FestiveTraditional from '../images/home/looks/Festive_Traditional_Spark.png';
 import DailyComfort from '../images/home/looks/Minimalist_Daily_Comfort.png';
 
-import logo from '../logo/Logo2.png';
-
 function HomeComponent() {
     return (
         <div id="landing-container">
@@ -151,18 +149,6 @@ function HomeComponent() {
                         The fit was just perfect! And the finishing was better than ready-made ones.
                         I felt super confident wearing it to my cousin's engagement.
                     </p>
-                </div>
-            </div>
-
-            <div id="footer">
-                <div className='footer-overview-part'>
-                    <img src={logo} alt="Logo" />
-                </div>
-                <div className='quick-link'>
-
-                </div>
-                <div className='contact-details'>
-
                 </div>
             </div>
         </div>

@@ -201,14 +201,3 @@
 .customer-review-text-holder > .section-title {
     color: var(--background-color2);
 }
-
-.footer-overview-part > img{
-    height: 100px;
-    width: 100px;
-}
-
-#footer{
-    height: 300px;
-    width: 100%;
-    background-color: var(--footer-bg);
-}
