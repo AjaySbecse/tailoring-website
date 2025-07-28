@@ -22,6 +22,8 @@ import ElegantOffice from '../images/home/looks/Elegant_Office_Vibes.png';
 import FestiveTraditional from '../images/home/looks/Festive_Traditional_Spark.png';
 import DailyComfort from '../images/home/looks/Minimalist_Daily_Comfort.png';
 
+import badge from '../icons/home/badge.png';
+
 function HomeComponent() {
     return (
         <div id="landing-container">
@@ -128,10 +130,10 @@ function HomeComponent() {
 
             <div id='customer-review'>
                 <div className='customer-review-image-holder'>
-                    <div class="card back-card"></div>
-                    <div class="card front-card">
-                        <div class="badge">
-
+                    <div class="card-container">
+                        <div class="card-back"></div>
+                        <div class="card-front">
+                            <img src={badge} alt="badge" className='badge' />
                         </div>
                     </div>
                 </div>

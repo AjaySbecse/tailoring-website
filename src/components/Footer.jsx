@@ -28,14 +28,14 @@ function Footer() {
                     </div>
                     <div className='contact-details'>
                         <h3>Visit Us</h3>
-                        <p>Mobile No</p>
-                        <p>Email</p>
-                        <p>Address</p>
+                        <p><i class="fa-solid fa-phone"></i> (+91) 7538816387</p>
+                        <p><i class="fa-solid fa-envelope"></i>sheebagarmentsofficial@gmail.com</p>
+                        <p><i class="fa-solid fa-location-dot"></i>8/3505, 1st Street, Anna Nagar. Tirupur - 641602</p>
                     </div>
                 </div>
                 <div className='social-media'>
-                    <span>test</span>
-                    <span>test2</span>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
                 </div>
             </div>
         </div>

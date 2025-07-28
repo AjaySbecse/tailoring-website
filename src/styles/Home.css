@@ -154,6 +154,50 @@
 
 
 /* Customer Review Section */
+
+.customer-review-image-holder{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.card-back {
+    width: 200px;
+    height: 220px;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+}
+
+.card-front {
+    position: absolute;
+    bottom: 0;
+    left: 110px;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.badge {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 65px;
+    height: 65px;
+    /* font-size: 60px; */
+    color: var(--background-color)
+}
+
+
+
 #customer-review{
     height: 250px;
     /* width: 100%; */

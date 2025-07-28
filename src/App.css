@@ -4,9 +4,11 @@
   --bolder: #FF72A9;
   --background-color: #f3E6D7;
   --background-color2 : #fff8ed;
+  --background-color-3 : #f2e6d6;
   --heading : #0D0c22;
   --text : rgb(168, 165, 165);
   --footer-bg : #211d1d;
+  --icon-color : #a34e6f;
 }
 
 @font-face {
