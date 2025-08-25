@@ -9,11 +9,17 @@
   --text : rgb(168, 165, 165);
   --footer-bg : #211d1d;
   --icon-color : #a34e6f;
+  --white : #fff;
 }
 
 @font-face {
   font-family: seasons;
   src: url('../public/fonts/seasons-font.ttf');
+}
+
+@font-face {
+  font-family: seasons-light;
+  src: url('../public/fonts/seasons-font-lt.otf');
 }
 
 @font-face {

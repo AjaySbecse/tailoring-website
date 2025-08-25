@@ -1,15 +1,11 @@
 import '../styles/Home.css';
+import ServiceCategoriesComponent from './ServiceSectionComponent';
+
 import img1 from '../images/home/Home1.png';
 import img2 from '../images/home/Home2.png';
 import img3 from '../images/home/Home3.png';
 import img4 from '../images/home/Home4.png';
 import img5 from '../images/home/Home5.png';
-
-import Salwar from '../images/home/Salwar.png';
-import Kurthi from '../images/home/Kurti.png';
-import Blouses from '../images/home/Blouses.png';
-import Chudithars from '../images/home/Chuditars.png';
-import Anarkalis from '../images/home/Anarkalis.png';
 
 import CustomFitIcon from '../icons/home/Custom_Fit.png';
 import TwentyFourBySeven from '../icons/home/24_7.png';
@@ -72,31 +68,10 @@ function HomeComponent() {
                 </div>
             </div>
 
-            <div id='service-container'>
+            <div className='service-container'>
                 <p className='section-title'># OUR SERVICES</p>
                 <p className='section-subtitle'> We specialize in stitching </p>
-                <div id='categories-container'>
-                    <div className='categories'>
-                        <img src={Salwar} alt="salwar" className='category-img' />
-                        <p className='category-title'>Salwar</p>
-                    </div>
-                    <div className='categories'>
-                        <img src={Kurthi} alt="Kurthi" className='category-img' />
-                        <p className='category-title'>Kurthi</p>
-                    </div>
-                    <div className='categories'>
-                        <img src={Blouses} alt="Blouses" className='category-img' />
-                        <p className='category-title'>Blouses</p>
-                    </div>
-                    <div className='categories'>
-                        <img src={Chudithars} alt="Chudithars" className='category-img' />
-                        <p className='category-title'>Chudithars</p>
-                    </div>
-                    <div className='categories'>
-                        <img src={Anarkalis} alt="Anarkalis" className='category-img' />
-                        <p className='category-title'>Anarkalis</p>
-                    </div>
-                </div>
+                <ServiceCategoriesComponent />
                 <button className='home-button'>See More</button>
             </div>
 
