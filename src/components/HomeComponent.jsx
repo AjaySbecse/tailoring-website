@@ -1,4 +1,5 @@
 import '../styles/Home.css';
+import { useNavigate } from 'react-router-dom';
 import ServiceCategoriesComponent from './ServiceSectionComponent';
 
 import img1 from '../images/home/Home1.png';
@@ -21,6 +22,7 @@ import DailyComfort from '../images/home/looks/Minimalist_Daily_Comfort.png';
 import badge from '../icons/home/badge.png';
 
 function HomeComponent() {
+    const navigate = useNavigate();
     return (
         <div id="landing-container">
             <div id="landing-content">
@@ -72,7 +74,7 @@ function HomeComponent() {
                 <p className='section-title'># OUR SERVICES</p>
                 <p className='section-subtitle'> We specialize in stitching </p>
                 <ServiceCategoriesComponent />
-                <button className='home-button'>See More</button>
+                <button className='home-button' onClick={() => navigate('/service')}>See More</button>
             </div>
 
             <div id='looks-container'>
