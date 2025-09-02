@@ -30,3 +30,58 @@
 .service-section{
     margin-top: 70px;
 }
+
+.service-other-offers{
+    height: 400px;
+    background-color: var(--background-color2);
+    /* text-align: center; */
+    padding: 30px 50px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.service-other-offers-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 60px;
+    margin-top: 70px;
+}
+
+.service-other-offers-list-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.other-offer-list-number {
+    font-size: 32px;
+    color: #e5d7c3;
+    font-family: seasons-light, serif;
+    min-width: 48px;
+    font-weight: 400;
+}
+
+.other-offer-list-description p {
+    margin: 0px 0px 20px 0px;
+    color: #8c8c8c;
+    font-size: 18px;
+    font-family: glacial-indifference, sans-serif;
+}
+
+.other-offer-list-description h3 {
+    margin: 8px 0 0 0;
+    font-size: 22px;
+    font-family: seasons-light, serif;
+    color: var(--grey);
+}
+
+
+.other-offer-list-hr {
+    border: none;
+    border-bottom: 2px dashed #e5d7c3;
+    margin: 12px 0 0 0;
+    width: 420px;
+    display: block;
+}
