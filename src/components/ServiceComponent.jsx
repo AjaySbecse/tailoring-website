@@ -55,6 +55,36 @@ function ServiceComponent() {
                     ))}
                 </div>
             </div>
+
+            <div className="moodboard-section">
+                <div className="moodboard-left">
+                    <img
+                        src="https://via.placeholder.com/120x100.png?text=Image"
+                        alt="Moodboard Left"
+                        className="moodboard-img"
+                    />
+                    <p className="moodboard-desc">
+                        Our Style Moodboards are here to inspire. Think of them as your personalized style guide – curated by vibe, occasion, and fabric flow.
+                    </p>
+                </div>
+                <div className="moodboard-center">
+                    <h2 className="moodboard-title">
+                        Not sure what design fits<br />your personality?
+                    </h2>
+                    <button className="moodboard-btn">Style Moodboard</button>
+                </div>
+                <div className="moodboard-right">
+                    <p className="moodboard-desc">
+                        Whether you’re planning an elegant office look, a dreamy bridal piece, or a comfy casual set, you’ll find moodboards that speak your language.
+                    </p>
+                    <img
+                        src="https://via.placeholder.com/120x100.png?text=Image"
+                        alt="Moodboard Right"
+                        className="moodboard-img"
+                    />
+                </div>
+            </div>
+
         </div>
     );
 }
